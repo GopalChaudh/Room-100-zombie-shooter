@@ -1,0 +1,294 @@
+[gd_scene load_steps=66 format=3 uid="uid://bgbfvrvh2nil6"]
+
+[ext_resource type="Texture2D" uid="uid://dhorkcnaa31gv" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_000.png" id="1_1sytl"]
+[ext_resource type="Texture2D" uid="uid://b41epkxpkdeg" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_001.png" id="2_guiq4"]
+[ext_resource type="Texture2D" uid="uid://cdd5dhfhbi81k" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_002.png" id="3_1xo5e"]
+[ext_resource type="Texture2D" uid="uid://bexyuyn7a1ifw" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_003.png" id="4_xg4yt"]
+[ext_resource type="Texture2D" uid="uid://bfk0et2wv5mon" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_004.png" id="5_du8k3"]
+[ext_resource type="Texture2D" uid="uid://csca24f4hposq" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_005.png" id="6_s67yy"]
+[ext_resource type="Texture2D" uid="uid://dmdkmfmom0ycb" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_006.png" id="7_0xdto"]
+[ext_resource type="Texture2D" uid="uid://dh2jtkxgi0452" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_007.png" id="8_exv03"]
+[ext_resource type="Texture2D" uid="uid://do24m8yrfwpcf" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_008.png" id="9_niwnm"]
+[ext_resource type="Texture2D" uid="uid://73vwk58xicon" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_009.png" id="10_q14vu"]
+[ext_resource type="Texture2D" uid="uid://lq8u3s354xeg" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_010.png" id="11_chx7i"]
+[ext_resource type="Texture2D" uid="uid://co2tgucdsm1mc" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Slashing/0_Zombie_Villager_Slashing_011.png" id="12_esbky"]
+[ext_resource type="Texture2D" uid="uid://mdsw5cnyta1g" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_000.png" id="13_5vk43"]
+[ext_resource type="Texture2D" uid="uid://ds2kqtgm3k7kd" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_001.png" id="14_f5osf"]
+[ext_resource type="Texture2D" uid="uid://xrwmp6hl3wd6" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_002.png" id="15_nf5yj"]
+[ext_resource type="Texture2D" uid="uid://durcwhwv60l33" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_003.png" id="16_rsvdi"]
+[ext_resource type="Texture2D" uid="uid://clq3dtw5cbouw" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_004.png" id="17_e2mrm"]
+[ext_resource type="Texture2D" uid="uid://dp8gi1ui6txgn" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_005.png" id="18_kml1r"]
+[ext_resource type="Texture2D" uid="uid://cugartvp28ubr" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_006.png" id="19_8fnoh"]
+[ext_resource type="Texture2D" uid="uid://d1lmbyi88kjdl" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_007.png" id="20_seruh"]
+[ext_resource type="Texture2D" uid="uid://cmrqsnuqwxov8" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_008.png" id="21_rwces"]
+[ext_resource type="Texture2D" uid="uid://birogfk77yx63" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_009.png" id="22_hw0tk"]
+[ext_resource type="Texture2D" uid="uid://ifs45est3k4i" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_010.png" id="23_7ewm4"]
+[ext_resource type="Texture2D" uid="uid://235j1h42t0rq" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_011.png" id="24_5coa7"]
+[ext_resource type="Texture2D" uid="uid://eaj0wfv82vig" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_012.png" id="25_adilr"]
+[ext_resource type="Texture2D" uid="uid://xqsojdto1khj" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_013.png" id="26_kgaeq"]
+[ext_resource type="Texture2D" uid="uid://dasb2rw7dohnn" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Dying/0_Zombie_Villager_Dying_014.png" id="27_kjkqd"]
+[ext_resource type="Texture2D" uid="uid://d08sm1k2mnrhx" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_000.png" id="28_ln1ft"]
+[ext_resource type="Texture2D" uid="uid://32bjthuphg3s" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_001.png" id="29_le8qa"]
+[ext_resource type="Texture2D" uid="uid://dmfpe2j2jrp7k" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_002.png" id="30_gv4to"]
+[ext_resource type="Texture2D" uid="uid://bmf4qt13l3i6e" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_003.png" id="31_04d24"]
+[ext_resource type="Texture2D" uid="uid://bv7abr41gpjh5" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_004.png" id="32_mpc8x"]
+[ext_resource type="Texture2D" uid="uid://cl1i3jab7gjoy" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_005.png" id="33_iqnt3"]
+[ext_resource type="Texture2D" uid="uid://d1okd2301ki4l" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_006.png" id="34_34k6u"]
+[ext_resource type="Texture2D" uid="uid://dskis0wsjsdys" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_007.png" id="35_vlbb1"]
+[ext_resource type="Texture2D" uid="uid://cpxu02ma5t15g" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_008.png" id="36_57xau"]
+[ext_resource type="Texture2D" uid="uid://bhsq3gnvdbb1s" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_009.png" id="37_hk53x"]
+[ext_resource type="Texture2D" uid="uid://cwpoe5m24dem" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_010.png" id="38_f1q81"]
+[ext_resource type="Texture2D" uid="uid://reajfmriu3g7" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Kicking/0_Zombie_Villager_Kicking_011.png" id="39_hrhq8"]
+[ext_resource type="Texture2D" uid="uid://bmu5g2ga0jpvm" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_000.png" id="40_o7cte"]
+[ext_resource type="Texture2D" uid="uid://d3xf8pnsihj7m" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_001.png" id="41_eub0q"]
+[ext_resource type="Texture2D" uid="uid://cp81ewlm7srra" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_002.png" id="42_avgye"]
+[ext_resource type="Texture2D" uid="uid://wvw6hkjm5uf1" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_003.png" id="43_sd4a5"]
+[ext_resource type="Texture2D" uid="uid://d0wwr76moc2va" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_004.png" id="44_vn36v"]
+[ext_resource type="Texture2D" uid="uid://d5k547np56v8" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_005.png" id="45_cfmes"]
+[ext_resource type="Texture2D" uid="uid://b75vd4c2ti3gs" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_006.png" id="46_s0m8c"]
+[ext_resource type="Texture2D" uid="uid://d0va4q05max5w" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_007.png" id="47_ub1l2"]
+[ext_resource type="Texture2D" uid="uid://caffy3a1u85k6" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_008.png" id="48_8tpyh"]
+[ext_resource type="Texture2D" uid="uid://q7u56lx80qa0" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_009.png" id="49_e2skb"]
+[ext_resource type="Texture2D" uid="uid://b2q36ftmmnlr5" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_010.png" id="50_y43xy"]
+[ext_resource type="Texture2D" uid="uid://ck0tq8a5eu6cc" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_011.png" id="51_7dxj3"]
+[ext_resource type="Texture2D" uid="uid://1v6fraq0fmjx" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_012.png" id="52_ljedh"]
+[ext_resource type="Texture2D" uid="uid://c5j1qnpgrsqfp" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_013.png" id="53_rsxg0"]
+[ext_resource type="Texture2D" uid="uid://dlqixqi2kn0ld" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_014.png" id="54_282vd"]
+[ext_resource type="Texture2D" uid="uid://k0o43f78vkib" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_015.png" id="55_jtwyv"]
+[ext_resource type="Texture2D" uid="uid://d1d8loyiuqwuj" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_016.png" id="56_dwyib"]
+[ext_resource type="Texture2D" uid="uid://c8ds38euvx24j" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_017.png" id="57_n0ewx"]
+[ext_resource type="Texture2D" uid="uid://bct4iifcjtn2v" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_018.png" id="58_k1av7"]
+[ext_resource type="Texture2D" uid="uid://scyjvq2hhla0" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_019.png" id="59_2fnj1"]
+[ext_resource type="Texture2D" uid="uid://yc1ff6b3v3ul" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_020.png" id="60_f2t4i"]
+[ext_resource type="Texture2D" uid="uid://cewqtm1ffoaw5" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_021.png" id="61_sb22a"]
+[ext_resource type="Texture2D" uid="uid://cjna1cydxysf7" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_022.png" id="62_s48s6"]
+[ext_resource type="Texture2D" uid="uid://cedbhhgh7a2f2" path="res://assets/sprites/zombiesprite/Zombie_Villager_1/PNG/PNG Sequences/Walking/0_Zombie_Villager_Walking_023.png" id="63_n0jyv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u65pl"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_1sytl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_guiq4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1xo5e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_xg4yt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_du8k3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_s67yy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_0xdto")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_exv03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_niwnm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_q14vu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_chx7i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_esbky")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_5vk43")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_f5osf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_nf5yj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_rsvdi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_e2mrm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_kml1r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_8fnoh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_seruh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_rwces")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_hw0tk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_7ewm4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_5coa7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_adilr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_kgaeq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_kjkqd")
+}],
+"loop": true,
+"name": &"dying",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_ln1ft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_le8qa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_gv4to")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_04d24")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_mpc8x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_iqnt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_34k6u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_vlbb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_57xau")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_hk53x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_f1q81")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_hrhq8")
+}],
+"loop": true,
+"name": &"kicking",
+"speed": 15.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("40_o7cte")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_eub0q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_avgye")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_sd4a5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_vn36v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_cfmes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_s0m8c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_ub1l2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_8tpyh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_e2skb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_y43xy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_7dxj3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_ljedh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_rsxg0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_282vd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_jtwyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_dwyib")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_n0ewx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_k1av7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_2fnj1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_f2t4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_sb22a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("62_s48s6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("63_n0jyv")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 15.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dglwm"]
+radius = 124.0
+height = 490.0
+
+[node name="Area2D" type="Area2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -301)
+sprite_frames = SubResource("SpriteFrames_u65pl")
+animation = &"walk"
+autoplay = "walk"
+frame_progress = 0.766356
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(33, -257)
+shape = SubResource("CapsuleShape2D_dglwm")

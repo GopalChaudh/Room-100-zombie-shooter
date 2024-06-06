@@ -1,0 +1,91 @@
+[gd_scene load_steps=7 format=3 uid="uid://cqyjb1sw3nhgc"]
+
+[ext_resource type="PackedScene" uid="uid://di2vm34428ypc" path="res://scene/player/player.tscn" id="1_ami84"]
+[ext_resource type="Texture2D" uid="uid://di1inaxkf5kn5" path="res://assets/background/craftpix-891123-free-pixel-art-street-2d-backgrounds/PNG/City3/Bright/houses3.png" id="2_2c7d6"]
+[ext_resource type="Texture2D" uid="uid://dkh6rm8b6bjlj" path="res://assets/background/craftpix-891123-free-pixel-art-street-2d-backgrounds/PNG/City3/Bright/road.png" id="3_0cj3n"]
+[ext_resource type="Texture2D" uid="uid://c3pu48ix4clkt" path="res://assets/background/craftpix-891123-free-pixel-art-street-2d-backgrounds/PNG/City3/Bright/houses1.png" id="4_mn0pn"]
+[ext_resource type="Texture2D" uid="uid://d3hy5ovxsi8v7" path="res://assets/background/craftpix-891123-free-pixel-art-street-2d-backgrounds/PNG/City3/Bright/City3.png" id="5_oyek3"]
+[ext_resource type="Texture2D" uid="uid://403phacyufe3" path="res://assets/background/craftpix-891123-free-pixel-art-street-2d-backgrounds/PNG/City3/Pale/sky.png" id="6_n1fx0"]
+
+[node name="Game" type="Node2D"]
+
+[node name="background" type="CanvasLayer" parent="."]
+layer = -4
+offset = Vector2(-1000, -600)
+scale = Vector2(2.76, 2.47)
+transform = Transform2D(2.76, 0, 0, 2.47, -1000, -600)
+follow_viewport_enabled = true
+follow_viewport_scale = 0.4
+
+[node name="Sprite2D" type="Sprite2D" parent="background"]
+position = Vector2(711, 327.875)
+scale = Vector2(0.739062, 0.596528)
+texture = ExtResource("2_2c7d6")
+
+[node name="Sprite2D2" type="Sprite2D" parent="background"]
+position = Vector2(2120, 326)
+scale = Vector2(0.739062, 0.596528)
+texture = ExtResource("2_2c7d6")
+
+[node name="Sprite2D3" type="Sprite2D" parent="background"]
+position = Vector2(3518.5, 328.125)
+scale = Vector2(0.739062, 0.596528)
+texture = ExtResource("2_2c7d6")
+
+[node name="Sprite2D4" type="Sprite2D" parent="background"]
+position = Vector2(4893.5, 334.25)
+scale = Vector2(0.739062, 0.596528)
+texture = ExtResource("2_2c7d6")
+
+[node name="road" type="CanvasLayer" parent="."]
+layer = -1
+follow_viewport_enabled = true
+
+[node name="Road" type="Sprite2D" parent="road"]
+position = Vector2(963, 102)
+texture = ExtResource("3_0cj3n")
+
+[node name="Road2" type="Sprite2D" parent="road"]
+position = Vector2(2868, 105)
+texture = ExtResource("3_0cj3n")
+
+[node name="Road3" type="Sprite2D" parent="road"]
+position = Vector2(4769, 105)
+texture = ExtResource("3_0cj3n")
+
+[node name="Road4" type="Sprite2D" parent="road"]
+position = Vector2(6674, 108)
+texture = ExtResource("3_0cj3n")
+
+[node name="Player" parent="." instance=ExtResource("1_ami84")]
+position = Vector2(567, 557)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, -200)
+
+[node name="CanvasModulate" type="CanvasModulate" parent="Player/Camera2D"]
+position = Vector2(-567, -357)
+color = Color(0.756863, 0.0862745, 0.270588, 1)
+
+[node name="shops" type="CanvasLayer" parent="."]
+layer = -3
+follow_viewport_enabled = true
+
+[node name="Houses1" type="Sprite2D" parent="shops"]
+position = Vector2(1362, 108)
+texture = ExtResource("4_mn0pn")
+
+[node name="Houses2" type="Sprite2D" parent="shops"]
+position = Vector2(5073, 142)
+texture = ExtResource("4_mn0pn")
+
+[node name="City3" type="Sprite2D" parent="shops"]
+position = Vector2(3165, 150)
+texture = ExtResource("5_oyek3")
+
+[node name="sky" type="CanvasLayer" parent="."]
+layer = -5
+
+[node name="Sky" type="Sprite2D" parent="sky"]
+position = Vector2(641, 367)
+texture = ExtResource("6_n1fx0")
